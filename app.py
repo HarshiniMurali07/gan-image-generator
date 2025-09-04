@@ -47,4 +47,4 @@ num = st.slider("Number of images to generate:", 1, 16, 4)
 if st.button("Generate"):
     img_path = generate_images(num)
     st.image(img_path, caption=f"{num} generated CIFAR-10-like images", use_column_width=True)
-es", use_column_width=True)
+
