@@ -6,7 +6,7 @@ from model import Generator   # make sure model.py is in same folder
 # -----------------------------
 # Config (must match training)
 # -----------------------------
-Z_DIM = 100        # latent vector size
+Z_DIM = 128       # latent vector size
 IMG_CHANNELS = 3   # RGB images
 G_FEAT = 64        # generator feature maps
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
